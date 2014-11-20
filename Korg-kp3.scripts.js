@@ -16,7 +16,6 @@ KorgKP3.init = function (id) {
 KorgKP3.holdon = false;
 KorgKP3.hold = function (channel, control, value, status, group) {
     if(value==127){ KorgKP3.holdon=true; } else { KorgKP3.holdon = false; }
-    
 }
 
 KorgKP3.btA = function (channel, control, value, status, group) {
@@ -50,8 +49,6 @@ KorgKP3.btD = function (channel, control, value, status, group) {
       engine.setValue("[Channel2]","LoadSelectedTrack", true);
     }
 }
-
-
 
 KorgKP3.bt1 = function (channel, control, value, status, group) {
   if(value==127){
@@ -110,7 +107,6 @@ KorgKP3.bt4 = function (channel, control, value, status, group) {
   }
 }
 
-
 KorgKP3.bt5 = function (channel, control, value, status, group) {
   if(value==127){
     if(KorgKP3.holdon){
@@ -168,9 +164,6 @@ KorgKP3.bt8 = function (channel, control, value, status, group) {
   }
 }
 
-
-
-
 KorgKP3.pad1 = function (channel, control, value, status, group) {
   if(value>64){
     if(!KorgKP3.holdon){
@@ -196,14 +189,7 @@ KorgKP3.pad8 = function (channel, control, value, status, group) {
 }
 
 
-/*
- * Called when the MIDI device is closed
- */
-KorgKP3.shutdown = function () {
-  
-
-};
-
+KorgKP3.shutdown = function () {};
 KorgKP3.printError = function(exception){
 	print("Mixxx has detected a mapping error. !");
 	print("Error Msg: "+exception.toString());
