@@ -10,13 +10,14 @@
         <file filename="Korg-KP3-scripts.js" functionprefix="KorgKP3" />
       </scriptfiles>
       <controls>
+      
+          <control><group>[Master]</group>	<key>KorgKP3.hold</key>		<status>0xB0</status>	<midino>0x5F</midino>	<options><Script-Binding/></options></control>
+      
         	<control><group>[Master]</group>	<key>KorgKP3.btA</key>		<status>0x90</status>	<midino>0x24</midino>	<options><Script-Binding/></options>	</control>
         	<control><group>[Master]</group>	<key>KorgKP3.btB</key>		<status>0x90</status>	<midino>0x25</midino>	<options><Script-Binding/></options>	</control>
         	<control><group>[Master]</group>	<key>KorgKP3.btC</key>		<status>0x90</status>	<midino>0x26</midino>	<options><Script-Binding/></options>	</control>
         	<control><group>[Master]</group>	<key>KorgKP3.btD</key>		<status>0x90</status>	<midino>0x27</midino>	<options><Script-Binding/></options>	</control>
         
-        	<control><group>[Master]</group>	<key>KorgKP3.hold</key>		<status>0xB0</status>	<midino>0x5F</midino>	<options><Script-Binding/></options></control>
-        	
         	<control><group>[Master]</group>	<key>KorgKP3.bt1</key>		<status>0xB0</status>	<midino>0x31</midino>	<options><Script-Binding/></options></control>
         	<control><group>[Master]</group>	<key>KorgKP3.bt2</key>		<status>0xB0</status>	<midino>0x32</midino>	<options><Script-Binding/></options></control>
         	<control><group>[Master]</group>	<key>KorgKP3.bt3</key>		<status>0xB0</status>	<midino>0x33</midino>	<options><Script-Binding/></options></control>
