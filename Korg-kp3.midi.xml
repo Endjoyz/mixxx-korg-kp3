@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+  <info>
+    <name>KORG KP3</name>
+    <author>EndJoyz</author>
+    <description>Controller mapping for KORG KP3 (with turtable)</description>
+  </info>
+    <controller id="Korg KP3">
+      <scriptfiles>
+        <file filename="Korg-KP3-scripts.js" functionprefix="KorgKP3" />
+      </scriptfiles>
+      <controls>
+        	<control><group>[Master]</group>	<key>KorgKP3.btA</key>		<status>0x90</status>	<midino>0x24</midino>	<options><Script-Binding/></options>	</control>
+        	<control><group>[Master]</group>	<key>KorgKP3.btB</key>		<status>0x90</status>	<midino>0x25</midino>	<options><Script-Binding/></options>	</control>
+        	<control><group>[Master]</group>	<key>KorgKP3.btC</key>		<status>0x90</status>	<midino>0x26</midino>	<options><Script-Binding/></options>	</control>
+        	<control><group>[Master]</group>	<key>KorgKP3.btD</key>		<status>0x90</status>	<midino>0x27</midino>	<options><Script-Binding/></options>	</control>
+        
+        	<control><group>[Master]</group>	<key>KorgKP3.hold</key>		<status>0xB0</status>	<midino>0x5F</midino>	<options><Script-Binding/></options></control>
+        	
+        	<control><group>[Master]</group>	<key>KorgKP3.bt1</key>		<status>0xB0</status>	<midino>0x31</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt2</key>		<status>0xB0</status>	<midino>0x32</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt3</key>		<status>0xB0</status>	<midino>0x33</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt4</key>		<status>0xB0</status>	<midino>0x34</midino>	<options><Script-Binding/></options></control>
+        	
+        	<control><group>[Master]</group>	<key>KorgKP3.bt5</key>		<status>0xB0</status>	<midino>0x35</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt6</key>		<status>0xB0</status>	<midino>0x36</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt7</key>		<status>0xB0</status>	<midino>0x37</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.bt8</key>		<status>0xB0</status>	<midino>0x38</midino>	<options><Script-Binding/></options></control>
+ 
+        	<control><group>[Master]</group>	<key>KorgKP3.pad1</key>		<status>0xB0</status>	<midino>0x46</midino>	<options><Script-Binding/></options></control>
+        	<control><group>[Master]</group>	<key>KorgKP3.pad8</key>		<status>0xB0</status>	<midino>0x4D</midino>	<options><Script-Binding/></options></control>
+        </controls>
+      <outputs/>
+    </controller>
+</MixxxControllerPreset>
